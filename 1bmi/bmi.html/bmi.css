@@ -1,0 +1,134 @@
+ html {
+  font-size: 20px;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: rgb(29, 17, 77);
+  background-image: linear-gradient(to top left, #df83f1 0%, #f0797d 100%); */
+  /* display: flex;*/
+  /* align-items: center; */
+  /* justify-content: center;*/
+}
+/* .reset {
+  height: 25px;
+
+  /* padding: 5px;
+  border-radius: 10px; 
+} */
+.box{ 
+  border-radius: 20px 10px ;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: aqua;
+    margin-top: 56px;
+     margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid black ;
+    box-shadow: 4px 7px 16px 2px rgb(0, 0, 0);
+}
+.name { 
+  text-align: center;
+  margin-left: -93px;
+  
+}
+.ge{
+  text-align: center;
+    margin-left: 70px; 
+}
+.he{
+  text-align: center;
+    margin-top: 20px;
+    margin-left: 30px; 
+    /* margin-right: 15px; */
+}
+.we{
+  text-align: center;
+     margin-left: 45px; 
+}
+.bmi{
+  text-align: center;
+    margin-top: 25px;
+    /* margin-left: 210px;  */
+    padding-bottom: 15px;
+}
+.b{
+    color: crimson; 
+    border: 2px solid black  ;
+}
+p{
+    font-size: 17px;
+     margin-left: 0px; 
+    margin-top: -10px;
+   text-align: center; 
+   
+
+}
+h2{
+  border-radius: 10px 5px ;
+  margin: 1px 220px  ;
+  border: 2px solid black;
+  margin-top: 50px;
+}
+.reset {
+     /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    color: rgb(111, 94, 203);
+    background: none;
+    border: none;
+    font-family: inherit;
+     font-size: 20px; 
+    text-transform: uppercase;
+     cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+   
+    background-color: rgb(2, 2, 2); 
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    /* backdrop-filter: blur(10px);*/
+  
+    /* padding: 0.7rem 2.5rem; */
+    border-radius: 50rem; 
+    /* box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1); */ 
+  }
+  .ch{
+    text-align: center;
+      margin-top: 20px;
+      margin-left:617px ;
+    color: rgb(111, 94, 203);
+    background: none;
+    border: none;
+    font-family: inherit;
+     font-size: 20px; 
+    text-transform: uppercase;
+     cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    border-radius: 50rem;
+    background-color: rgb(2, 2, 2); 
+  }
+  h5{
+    text-align: center;
+      margin: 0px 0px 0px -282px;
+      font-size:15px ;
+      color: rgba(248, 33, 33, 0.884);
+  }
+  h4{
+    text-align: center;
+    margin: -19px 19px 0px 320px;
+    font-size:15px ;
+    color: rgba(248, 33, 33, 0.884);
+  }
+  .reset:hover{
+    transform: translate(0px, -2px);
+  }
+  .ch:hover{
+    transform: translate(0px, -2px);
+  }
+.hidden{
+    display: none;
+}
